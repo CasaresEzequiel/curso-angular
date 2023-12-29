@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
             alt="logo"
             aria-hidden="true"
           />
-          Tu siguiente rancho
+          Tu próximo techo
         </header>
       </a>
       <section class="content">

@@ -11,13 +11,13 @@ import { RouterModule } from '@angular/router';
     <section class="listing">
       <img
         class="listing-photo"
-        [src]="housingLocation.photo"
-        alt="Exterior photo of {{ housingLocation.name }}"
+        [src]="housingLocation.foto"
+        alt="Exterior photo of {{ housingLocation.nombre }}"
         crossorigin
       />
-      <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+      <h2 class="listing-heading">{{ housingLocation.nombre }}</h2>
       <p class="listing-location">
-        {{ housingLocation.city }}, {{ housingLocation.state }}
+        {{ housingLocation.ciudad }}, {{ housingLocation.provincia }}
       </p>
       <a [routerLink]="['/details', housingLocation.id]">Conocé mas</a>
     </section>

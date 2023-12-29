@@ -12,23 +12,25 @@ import { HousingLocation } from '../housinglocation';
     <article>
       <img
         class="listing-photo"
-        [src]="housingLocation?.photo"
-        alt="Exterior photo of {{ housingLocation?.name }}"
+        [src]="housingLocation?.foto"
+        alt="Exterior photo of {{ housingLocation?.nombre }}"
         crossorigin
       />
       <section class="listing-description">
-        <h2 class="listing-heading">{{ housingLocation?.name }}</h2>
+        <h2 class="listing-heading">{{ housingLocation?.nombre }}</h2>
         <p class="listing-location">
-          {{ housingLocation?.city }}, {{ housingLocation?.state }}
+          {{ housingLocation?.ciudad }}, {{ housingLocation?.provincia }}
         </p>
       </section>
       <section class="listing-features">
-        <h2 class="section-heading">About this housing location</h2>
+        <h2 class="section-heading">Acerca de esta propiedad</h2>
         <ul>
-          <li>Units available: {{ housingLocation?.availableUnits }}</li>
-          <li>Does this location have wifi: {{ housingLocation?.wifi }}</li>
           <li>
-            Does this location have laundry: {{ housingLocation?.laundry }}
+            Unidades disponibles: {{ housingLocation?.unidadesDisponibles }}
+          </li>
+          <li>Cuenta con wifi: {{ housingLocation?.wifi }}</li>
+          <li>
+            Cuenta con servicio de limpieza: {{ housingLocation?.lavanderia }}
           </li>
         </ul>
       </section>

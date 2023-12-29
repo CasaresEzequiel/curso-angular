@@ -1,10 +1,10 @@
 export interface HousingLocation {
   id: number;
-  name: string;
-  city: string;
-  state: string;
-  photo: string;
-  availableUnits: number;
+  nombre: string;
+  ciudad: string;
+  provincia: string;
+  foto: string;
+  unidadesDisponibles: number;
   wifi: boolean;
-  laundry: boolean;
+  lavanderia: boolean;
 }

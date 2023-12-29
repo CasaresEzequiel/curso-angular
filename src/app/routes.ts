@@ -5,7 +5,7 @@ const routeConfig: Routes = [
   {
     path: '',
     component: HomeComponent,
-    title: 'Home page',
+    title: 'Tu Próximo Techo - Bienes Raíces',
   },
   {
     path: 'details/:id',
